@@ -14,7 +14,7 @@ function App() {
           <a href="#">
               Inicio
           </a>
-          <a href="#">
+          <a href="#productos">
             Camiones
           </a>
           <a href="#">
@@ -49,8 +49,51 @@ function App() {
                 De igual manera contamos con una gran variedad de unidades a un costo accesible que se ajustara a tus necesidades y a tu bolsillo.
               </p>
           </div>
+      </div> 
+    </section>
+    <section class="cartas" id="productos">
+      <div class="carta-faw">
+        <img src="img/modelos/1102/ELAM-FAW-1102-diesel-lateral.jpg" alt=""></img>
+        <p>1102D</p>
+        <p>2 Ton</p>
+        <div class="detalles">
+          <a href="1102.html">Ver Detalles</a>
+        </div>
+      </div>
+      <div class="carta-faw">
+        <img src="img/modelos/1303/ELAM-FAW-1303-diesel-lateral.jpg" alt=""></img>
+        <p>1303D</p>
+        <p>3.4 Ton</p>
+        <div class="detalles">
+          <a href="1303.html">Ver Detalles</a>
+        </div>
+      </div>
+      <div class="carta-faw">
+        <img src="img/modelos/1304/ELAM-FAW-1304-diesel-lateral.jpg" alt=""></img>
+        <p>1304D</p>
+        <p>4 Ton</p>
+        <div class="detalles">
+          <a href="1304.html">Ver Detalles</a>
+        </div>
+      </div>
+      <div class="carta-faw">
+        <img src="img/modelos/1605/ELAM-FAW-1605-diesel-lateral.jpg" alt=""></img>
+        <p>1605D</p>
+        <p>5.3 Ton</p>
+        <div class="detalles">
+          <a href="1605.html">Ver Detalles</a>
+        </div>
+        </div>
+        <div class="carta-faw">
+          <img src="img/modelos/1607/ELAM-FAW-1607-diesel-lateral.jpg" alt=""></img>
+          <p>TIGER 1607D</p>
+          <p>7.6 Ton</p>
+          <div class="detalles">
+            <a href="1607.html">Ver Detalles</a>
+          </div>
       </div>
     </section>
+    
     <footer>
       <div className="telefonos">
         <h3>Télefono</h3>
